@@ -5,6 +5,8 @@
   channel = "stable-23.11"; # or "unstable"
   # Use https://search.nixos.org/packages to find packages
   packages = [
+    pkgs.php83
+    pkgs.php83Packages.composer
     pkgs.nodejs_20
   ];
   # Sets environment variables in the workspace
